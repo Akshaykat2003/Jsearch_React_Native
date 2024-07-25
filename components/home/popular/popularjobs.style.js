@@ -14,12 +14,12 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: SIZES.large,
     fontFamily: FONT.medium,
-    color: COLORS.primary,
+    color: COLORS.lightWhite,
   },
   headerBtn: {
     fontSize: SIZES.medium,
     fontFamily: FONT.medium,
-    color: COLORS.gray,
+    color: COLORS.tertiary,
   },
   cardsContainer: {
     marginTop: SIZES.medium,

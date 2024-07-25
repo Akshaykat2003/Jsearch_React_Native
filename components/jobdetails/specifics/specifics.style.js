@@ -5,7 +5,7 @@ import { COLORS, FONT, SIZES } from "../../../constants";
 const styles = StyleSheet.create({
   container: {
     marginTop: SIZES.large,
-    backgroundColor: "#FFF",
+    backgroundColor: "#CCCCFF",
     borderRadius: SIZES.medium,
     padding: SIZES.medium,
   },
@@ -27,12 +27,12 @@ const styles = StyleSheet.create({
     width: 6,
     height: 6,
     borderRadius: 6,
-    backgroundColor: COLORS.gray2,
+    backgroundColor: COLORS.black,
     marginTop: 6,
   },
   pointText: {
     fontSize: SIZES.medium - 2,
-    color: COLORS.gray,
+    color: COLORS.black,
     fontFamily: FONT.regular,
     marginLeft: SIZES.small,
   },

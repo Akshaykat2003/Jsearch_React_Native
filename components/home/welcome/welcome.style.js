@@ -5,16 +5,18 @@ import { COLORS, FONT, SIZES } from "../../../constants";
 const styles = StyleSheet.create({
   container: {
     width: "100%",
+    color:COLORS.black,
   },
   userName: {
     fontFamily: FONT.regular,
     fontSize: SIZES.large,
-    color: COLORS.secondary,
+    color:COLORS.lightWhite,
+    
   },
   welcomeMessage: {
     fontFamily: FONT.bold,
     fontSize: SIZES.xLarge,
-    color: COLORS.primary,
+    color: COLORS.tertiary,
     marginTop: 2,
   },
   searchContainer: {
@@ -55,17 +57,18 @@ const styles = StyleSheet.create({
   tabsContainer: {
     width: "100%",
     marginTop: SIZES.medium,
+  
   },
   tab: (activeJobType, item) => ({
     paddingVertical: SIZES.small / 2,
     paddingHorizontal: SIZES.small,
     borderRadius: SIZES.medium,
-    borderWidth: 1,
-    borderColor: activeJobType === item ? COLORS.secondary : COLORS.gray2,
+    borderWidth: 3,
+    borderColor: activeJobType === item ? COLORS.tertiary : COLORS.grey2,
   }),
   tabText: (activeJobType, item) => ({
     fontFamily: FONT.medium,
-    color: activeJobType === item ? COLORS.secondary : COLORS.gray2,
+    color: activeJobType === item ? COLORS.tertiary : COLORS.gray2,
   }),
 });
 
